@@ -70,9 +70,7 @@
       "font": {
         "value": "16px",
         "type": "sizing"
-      }
-    },
-    "hrml": {
+      },
       "padding": {
         "value": "0",
         "type": "spacing"
