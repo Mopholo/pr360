@@ -1,0 +1,138 @@
+{
+  "global": {
+    "deepPurple": {
+      "value": "#39334E",
+      "type": "color"
+    },
+    "purple": {
+      "value": "#7469AA",
+      "type": "color"
+    },
+    "paleGreen": {
+      "value": "#9AFFCF",
+      "type": "color"
+    },
+    "white": {
+      "value": "FFFFFF",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "atom-border-raidius-sm": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "atom-border-raidius-md": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "atom-border-radius-sy": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "atom-border-radius-lg": {
+      "value": "10",
+      "type": "borderRadius"
+    },
+    "atom-padding-sm": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "atom-padding-md": {
+      "value": "6",
+      "type": "spacing"
+    },
+    "atom-padding-df": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "atom-padding-lg": {
+      "value": "10",
+      "type": "spacing"
+    },
+    "atom-font-family": {
+      "value": {
+        "fontFamily": "Lato"
+      },
+      "type": "typography"
+    },
+    "atom-border-width-thin": {
+      "value": "1",
+      "type": "borderWidth"
+    },
+    "atom-border-width-md": {
+      "value": "2",
+      "type": "borderWidth"
+    }
+  },
+  ".pillButton": {
+    "border-radius": {
+      "value": "{atom-border-raidius-md}",
+      "type": "borderRadius"
+    },
+    "padding": {
+      "value": "{atom-padding-df}",
+      "type": "spacing"
+    },
+    "background-color": {
+      "value": "{purple}",
+      "type": "color"
+    },
+    "border-width": {
+      "value": "{atom-border-width-md}",
+      "type": "borderWidth"
+    },
+    "color": {
+      "value": "{white}",
+      "type": "color"
+    },
+    "border-color": {
+      "value": "{white}",
+      "type": "color"
+    }
+  },
+  "$themes": [
+    {
+      "id": "6875e34dbe23a1ce7a8a7b4a12ee72ca3825a28f",
+      "name": "dark",
+      "selectedTokenSets": {
+        "global": "enabled",
+        ".pillButton": "disabled"
+      },
+      "$figmaStyleReferences": {
+        "deepPurple": "S:6e25eda0f9d4b0be1fb71efe7b40035b2de843ea,",
+        "purple": "S:18ff6fff433575fdf735163b82356c15d9d59b9a,",
+        "paleGreen": "S:b0bbc76701d12cc6e68807f94249f907d2cacf7b,",
+        "white": "S:1bdb88902daafbf7ef90d4c5ffd66f4fd8bcad88,",
+        "black": "S:e3914eedadde28e628097cc7899c304fb794cd99,",
+        "atom-font-family": "S:3d1acf45ab4920a0be8fd077679fca4286312eca,"
+      }
+    },
+    {
+      "id": "fecc1b034e34004a0fd936819196f2ffced1143a",
+      "name": "system",
+      "selectedTokenSets": {
+        "global": "enabled",
+        ".pillButton": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "50d13291d56a9e3841e122a8ab855cb942f06a28",
+      "name": "light",
+      "selectedTokenSets": {
+        "global": "enabled",
+        ".pillButton": "disabled"
+      },
+      "$figmaStyleReferences": {}
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global",
+      ".pillButton"
+    ]
+  }
+}
