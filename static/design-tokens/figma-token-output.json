@@ -65,6 +65,12 @@
     "atom-border-width-md": {
       "value": "2",
       "type": "borderWidth"
+    },
+    "font": {
+      "base": {
+        "value": "16px",
+        "type": "sizing"
+      }
     }
   },
   ".pillButton": {
