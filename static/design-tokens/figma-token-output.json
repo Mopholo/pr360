@@ -105,6 +105,30 @@
     "border-color": {
       "value": "{white}",
       "type": "color"
+    },
+    "background": {
+      "color": {
+        "focused": {
+          "value": "{paleGreen}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{purple}",
+          "type": "color"
+        }
+      }
+    },
+    "text": {
+      "color": {
+        "focused": {
+          "value": "{black}",
+          "type": "color"
+        },
+        "active": {
+          "value": "{white}",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": [
