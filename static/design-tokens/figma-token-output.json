@@ -68,8 +68,28 @@
     },
     "font": {
       "base": {
-        "value": "16px",
-        "type": "sizing"
+        "size": {
+          "value": "16px",
+          "type": "sizing"
+        }
+      }
+    },
+    "html": {
+      "value": {
+        "width": "100vw",
+        "height": "100vh",
+        "sizing": "0"
+      },
+      "type": "composition",
+      "base": {
+        "padding": {
+          "value": "0",
+          "type": "sizing"
+        },
+        "margin": {
+          "value": "0",
+          "type": "sizing"
+        }
       }
     }
   },
