@@ -4,7 +4,6 @@
 }
 
 @mixin mode {
-    /*color-scheme: prcvlight;*/
     --colors-background: var(--light-colors-background);
     --colors-text: var(--light-colors-text);
 }
