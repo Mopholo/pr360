@@ -6,7 +6,7 @@
 @mixin default($global) {
     #{if($global, ':global(:where(html))', ':where(html)')} {
         @include colors.tokens;
-        
+
         @include light.theme;
         @include dark.theme;
         @include hybrid.theme;
@@ -23,18 +23,4 @@
     #{if($global, ':global([color-scheme='hybrid'])', ':where([color-scheme='hybrid'])')} {
         @include hybrid.mode;
     }
-
-    /* #{if($global, ':global(:root)', ':root')} {
-
-    @include hybrid.mode;
-    
-    @media (prefers-color-scheme: dark) {
-        @include dark.mode;
-    }
-
-    @media (prefers-color-scheme: light) {
-        @include light.mode;
-    }
-    
-    }*/
 }
