@@ -4,7 +4,7 @@
 }
 
 @mixin mode {
-    color-scheme: prcvdark;
+    /*color-scheme: prcvdark;*/
     --colors-background: var(--dark-colors-background);
     --colors-text: var(--dark-colors-text);
 }
