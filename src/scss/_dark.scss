@@ -1,0 +1,10 @@
+@mixin theme {
+    --dark-colors-background: var(--palette-black);
+    --dark-colors-text: var(--palette-white);
+}
+
+@mixin mode {
+    color-scheme: prcvdark;
+    --colors-background: var(--dark-colors-background);
+    --colors-text: var(--dark-colors-text);
+}

@@ -1,12 +1,15 @@
 import adapter from '@sveltejs/adapter-auto';
-import preprocess from "svelte-preprocess";
+import preprocessor from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	preprocess: preprocessor(),
 	kit: {
 		adapter: adapter(),
 		alias: {
 			$src: 'src',
+			$css: 'src/css',
+			$scss: 'src/scss',
 			$lib: 'src/lib',
 			$uikit: 'src/components/uikit',
 			$views: 'src/components/views',
@@ -14,13 +17,7 @@ const config = {
 			$stores: 'src/stores',
 			$api: 'src/api',
 		}
-	},
-
-	preprocess: [
-		preprocess({
-			postcss: true,
-		}),
-	]
+	}
 };
 
 export default config;

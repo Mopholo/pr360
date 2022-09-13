@@ -1,0 +1,12 @@
+@mixin theme {
+    --hybrid-colors-background: var(--palette-red);
+    --hybrid-colors-text: var(--palette-yellow);
+    --hybrid-colors-border: var(--palette-black);
+}
+
+@mixin mode {
+    color-scheme: hybrid;
+    --colors-background: var(--hybrid-colors-background);
+    --colors-text: var(--hybrid-colors-text);
+    --colors-border: var(--hybrid-colors-border);
+}
