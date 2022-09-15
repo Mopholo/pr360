@@ -1,9 +1,7 @@
-@mixin theme {
-    --light-colors-background: var(--palette-white);
-    --light-colors-text: var(--palette-black);
-}
+:root[data-theme='light'] {
+	--dark-colors-background: var(--palette-black);
+	--dark-colors-text: var(--palette-white);
 
-@mixin mode {
-    --colors-background: var(--light-colors-background);
-    --colors-text: var(--light-colors-text);
+	--colors-background: var(--light-colors-background);
+	--colors-text: var(--light-colors-text);
 }

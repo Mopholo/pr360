@@ -6,14 +6,10 @@
 
 	let root;
 	let scheme;
-	let prop;
 
 	function setColorScheme(userScheme) {
 		if (!root) return;
-
-		root.setAttribute('color-scheme', userScheme);
 		root.dataset.theme = userScheme;
-
 		console.log('Set Color Scheme to ' + userScheme);
 	}
 
@@ -38,8 +34,7 @@
 <slot />
 
 <style lang="scss">
-	@use '../scss/theme';
-	@include theme.default(true);
+	@use '../scss/main' as *;
 
 	.themeCheck {
 		display: inline-flex;
