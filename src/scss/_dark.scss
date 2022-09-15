@@ -1,9 +1,7 @@
-@mixin theme {
-    --dark-colors-background: var(--palette-black);
-    --dark-colors-text: var(--palette-white);
-}
+:root[data-theme='dark'] {
+	--dark-colors-background: var(--palette-black);
+	--dark-colors-text: var(--palette-white);
 
-@mixin mode {
-    --colors-background: var(--dark-colors-background);
-    --colors-text: var(--dark-colors-text);
+	--colors-background: var(--dark-colors-background);
+	--colors-text: var(--dark-colors-text);
 }
