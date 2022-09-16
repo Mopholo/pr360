@@ -5,7 +5,7 @@
 	import { onMount } from 'svelte';
 
 	let root;
-	let scheme;
+	let scheme = 'hybrid';
 
 	function setColorScheme(userScheme) {
 		if (!root) return;
@@ -24,7 +24,6 @@
 
 	onMount(() => {
 		root = document.documentElement;
-		scheme = 'hybrid'; // get this from the store
 	});
 </script>
 
@@ -44,12 +43,13 @@
 		height: 200px;
 		font-size: 32px;
 		border-radius: 6px;
-		border-color: var(--colors-border);
 		border-style: solid;
 		border-width: 3px;
-		background-color: var(--colors-background);
-		color: var(--colors-text);
 		cursor: pointer;
 		user-select: none;
+
+		border-color: var(--colors-border);
+		background-color: var(--colors-background);
+		color: var(--colors-text);
 	}
 </style>

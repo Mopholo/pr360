@@ -1,7 +1,11 @@
 :root[data-theme='light'] {
-	--dark-colors-background: var(--palette-black);
+	/*--dark-colors-background: var(--palette-black);
 	--dark-colors-text: var(--palette-white);
 
 	--colors-background: var(--light-colors-background);
-	--colors-text: var(--light-colors-text);
+	--colors-text: var(--light-colors-text);*/
+
+	--colors-background: var(--palette-white);
+	--colors-text: var(--palette-black);
+	--colors-border: var(--palette-blue);
 }

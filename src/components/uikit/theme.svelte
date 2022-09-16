@@ -3,6 +3,8 @@
 	const theme = writable('system');
 
 	export { theme };
+
+	const availableThemes = [{ light: 'Light' }, { hybrid: 'Hybrid' }, { dark: 'Dark' }];
 </script>
 
 <select bind:value={$theme}>
